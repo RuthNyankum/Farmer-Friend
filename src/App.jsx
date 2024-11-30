@@ -3,16 +3,17 @@ import React, { useEffect, useState } from 'react';
 import './App.css';
 import Home from './pages/home';
 import About from './pages/about';
-import Product from './pages/product';
+// import Product from './pages/product';
 import Contact from './pages/contact';
 import Navbar from './components/navbar';
 import Footer from './components/footer';
+import Products from './pages/product';
 
 function App() {
   const [activeSection, setActiveSection] = useState('home');
 
   const handleScroll = () => {
-    const sections = ['home', 'about', 'events', 'contact'];
+    const sections = ['home', 'about', 'products', 'contact'];
     const scrollPosition = window.scrollY + window.innerHeight / 2;
 
     sections.forEach((section) => {
@@ -51,7 +52,7 @@ function App() {
             <About />
           </div>
           <div id="products" className="section">
-            <Product />
+            <Products />
           </div>
           <div id="contact" className="section">
             <Contact />

@@ -3,7 +3,7 @@ import { BsFacebook, BsInstagram, BsTwitter } from 'react-icons/bs';
 
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-r from-cyan-900 to-cyan-950 text-white py-8">
+    <footer className="bg-primary text-white py-8">
       <div className="container mx-auto text-center">
         {/* Brand Name */}
         <p className="text-2xl font-semibold mb-2">Farmer Friend</p>

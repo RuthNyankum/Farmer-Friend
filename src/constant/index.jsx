@@ -10,7 +10,7 @@ const K = {
     },
     {
       name: 'Products',
-      path: '/products',
+      path: '/product',
     },
     {
       name: 'Contact',

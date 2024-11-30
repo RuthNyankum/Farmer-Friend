@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Custom Styles for Swiper Pagination */
+.swiper-pagination .swiper-pagination-bullet {
+  background-color: #d1d5db; /* Light gray for inactive bullets */
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #26873a !important; /* Green for active bullet */
+}
+
+/* Optional: Add hover effect */
+.swiper-pagination .swiper-pagination-bullet:hover {
+  background-color: #6ee7b7 !important; /* Lighter green on hover */
+}
