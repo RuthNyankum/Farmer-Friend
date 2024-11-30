@@ -50,7 +50,7 @@ const About = () => {
   return (
     <div className="bg-white">
       {/* Header Section */}
-      <div className="flex flex-col md:flex-row items-center justify-between px-6 py-12 max-w-7xl mx-auto">
+      <div className="flex flex-col md:flex-row items-center justify-between px-6 py-12 max-w-7xl mx-auto font-poppins">
         {/* Left content: Title */}
         <div className="max-w-lg text-center md:text-left">
           <h3 className="text-xl font-semibold text-primary">ABOUT US</h3>
@@ -61,7 +61,7 @@ const About = () => {
 
         {/* Right content: Description */}
         <div className="max-w-3xl mt-8 md:mt-0 md:ml-12">
-          <p className="text-sm md:text-xl text-center md:text-left">
+          <p className="text-sm md:text-xl text-center md:text-left text-gray-600">
             At Farmer Friend, we are all about making animal feed more
             affordable and sustainable. We use Black Soldier Fly larvae along
             with other waste materials to create high-quality feed, helping
@@ -94,12 +94,9 @@ const About = () => {
                 Farmer Frend Insights
               </h3>
               <h1 className="text-4xl font-bold text-gray-800 mt-4">
-                Sustainable solutions and eco-friendly practices
+                Sustainable Solutions and Eco-Friendly Practices
               </h1>
-              <p
-                className="text-sm md:text-xl mt-4"
-                // className="text-gray-600 mt-4"
-              >
+              <p className="text-sm md:text-xl mt-4 text-gray-600">
                 Farmer Friend offers sustainable feed solutions, helping farmers
                 save costs, promote eco-friendly practices, and stay ahead with
                 innovative agriculture using Black Soldier Fly larvae.

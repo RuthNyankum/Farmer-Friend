@@ -102,7 +102,7 @@ import productImage4 from '../../assets/images/pic3.jpg';
 
 const Products = () => {
   return (
-    <div className="bg-white">
+    <div className="bg-white font-poppins">
       {/* Product Header */}
       <div className="px-6 py-16 text-center bg-green-100">
         <h2 className="text-3xl sm:text-4xl font-bold text-gray-800">
@@ -159,9 +159,21 @@ const Products = () => {
         </Swiper>
       </div>
 
-      {/* Testimonial Section */}
+      {/* Review Section */}
       <div className="bg-white py-16">
         <div className="max-w-4xl mx-auto px-6 text-center">
+          {/* Heading for Review Section */}
+          <h2 className="text-3xl sm:text-4xl font-bold text-gray-800">
+            What Our Customers Are Saying
+          </h2>
+          <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
+            Hear from our satisfied customers about how our premium organic feed
+            has transformed their farming practices.
+          </p>
+        </div>
+
+        {/* Testimonials */}
+        <div className="max-w-4xl mx-auto px-6 text-center mt-10">
           {/* First Testimonial - Customer */}
           <p className="text-xl text-gray-700 italic">
             “This feed has worked wonders for my farm. The livestock are
@@ -174,6 +186,7 @@ const Products = () => {
             <span className="text-gray-500">Farmer</span>
           </p>
         </div>
+
         <div className="max-w-4xl mx-auto px-6 text-center mt-10">
           {/* Second Testimonial - Farmer Friendly */}
           <p className="text-xl text-gray-700 italic">

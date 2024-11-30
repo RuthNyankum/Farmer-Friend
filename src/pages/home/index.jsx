@@ -11,7 +11,7 @@ const Home = () => {
 
   return (
     <div
-      className="relative h-[60vh] sm:h-[80vh] bg-cover bg-center mt-16"
+      className="relative h-[60vh] sm:h-[80vh] bg-cover bg-center mt-16 font-poppins"
       style={{
         backgroundImage: `url(${bgImage})`,
       }}
@@ -22,7 +22,7 @@ const Home = () => {
       {/* Text Content */}
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-6 pt-24">
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4 ">
-          Welcome to Farmer Frend
+          Welcome to <span className="font-courgette">Farmer Frend</span>
         </h1>
         <p className="text-lg sm:text-xl md:text-2xl max-w-3xl mb-6">
           Providing top-quality, organic animal feed for healthy, sustainable

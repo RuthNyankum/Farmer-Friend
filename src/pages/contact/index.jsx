@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <div className="min-h-screen bg-green-50 flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-green-50 flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 font-poppins">
       <div className="max-w-4xl w-full space-y-10">
         {/* Page Title */}
         <div className="text-center">
@@ -94,15 +94,13 @@ const Contact = () => {
                 <span className="text-green-600 w-10 h-10 flex items-center justify-center bg-green-100 rounded-full">
                   ✉️
                 </span>
-                <p className="ml-4 text-gray-800">support@farmerfriend.com</p>
+                <p className="ml-4 text-gray-800">support@farmerfrend.com</p>
               </div>
               <div className="flex items-center">
                 <span className="text-green-600 w-10 h-10 flex items-center justify-center bg-green-100 rounded-full">
                   📍
                 </span>
-                <p className="ml-4 text-gray-800">
-                  123 Green Field Lane, Agriland
-                </p>
+                <p className="ml-4 text-gray-800">Not yet available</p>
               </div>
             </div>
           </div>

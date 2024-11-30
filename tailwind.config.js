@@ -7,10 +7,10 @@ export default {
         primary: '#26873A',
         secondary: '#96C94B',
       },
-      // fontFamily: {
-      //   poppins: ['Poppins', 'sans-serif'],
-      //   courgette: ['Courgette', 'cursive'],
-      // },
+      fontFamily: {
+        poppins: ['Poppins', 'sans-serif'],
+        courgette: ['Courgette', 'cursive'],
+      },
     },
   },
   plugins: [],

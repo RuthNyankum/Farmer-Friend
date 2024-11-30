@@ -19,7 +19,7 @@ const Navbar = ({ activeSection }) => {
   };
 
   return (
-    <nav className="bg-gradient-to-r from-gray-100 to-white text-white px-6 py-4 fixed top-0 left-0 w-full z-50 flex justify-around items-center">
+    <nav className="bg-gradient-to-r from-gray-100 to-white text-white px-6 py-4 fixed top-0 left-0 w-full z-50 flex justify-around items-center font-poppins">
       {/* Logo */}
       <div>
         <img src={logo} alt="Farmer Friend Logo" className="h-20 w-auto" />

@@ -4,7 +4,7 @@ import { BsFacebook, BsInstagram, BsTwitter } from 'react-icons/bs';
 const Footer = () => {
   return (
     <footer className="bg-primary text-white py-8">
-      <div className="container mx-auto text-center">
+      <div className="container mx-auto text-center font-poppins">
         {/* Brand Name */}
         <p className="text-2xl font-semibold mb-2">Farmer Friend</p>
 
