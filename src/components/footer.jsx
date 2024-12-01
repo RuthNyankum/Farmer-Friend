@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="bg-primary text-white py-8">
       <div className="container mx-auto text-center font-poppins">
         {/* Brand Name */}
-        <p className="text-2xl font-semibold mb-2">Farmer Friend</p>
+        <p className="text-2xl font-semibold mb-2">FarmerFrend</p>
 
         {/* Brand Description */}
         <p className="text-sm mb-6 max-w-lg mx-auto">
@@ -47,7 +47,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <p className="text-xs text-gray-400">
-          © 2024 Farmer Friend. All rights reserved.
+          © 2024 FarmerFrend. All rights reserved.
         </p>
       </div>
     </footer>

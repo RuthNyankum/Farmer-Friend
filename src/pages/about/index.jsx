@@ -62,13 +62,13 @@ const About = () => {
         {/* Right content: Description */}
         <div className="max-w-3xl mt-8 md:mt-0 md:ml-12">
           <p className="text-sm md:text-xl text-center md:text-left text-gray-600">
-            At Farmer Friend, we are all about making animal feed more
-            affordable and sustainable. We use Black Soldier Fly larvae along
-            with other waste materials to create high-quality feed, helping
-            farmers cut down on costs. By turning organic waste into something
-            useful, we are not just saving money – we are also doing our part to
-            make farming more eco-friendly. It is all about finding smarter,
-            more sustainable ways to support farmers and help them grow.
+            At FarmerFrend, we are all about making animal feed more affordable
+            and sustainable. We use Black Soldier Fly larvae along with other
+            waste materials to create high-quality feed, helping farmers cut
+            down on costs. By turning organic waste into something useful, we
+            are not just saving money – we are also doing our part to make
+            farming more eco-friendly. It is all about finding smarter, more
+            sustainable ways to support farmers and help them grow.
           </p>
         </div>
       </div>
@@ -91,13 +91,13 @@ const About = () => {
           <div className="w-full md:w-1/2 pl-8 mt-8 md:mt-0">
             <div className="relative z-10">
               <h3 className="text-2xl text-primary font-semibold">
-                Farmer Frend Insights
+                FarmerFrend Insights
               </h3>
               <h1 className="text-4xl font-bold text-gray-800 mt-4">
                 Sustainable Solutions and Eco-Friendly Practices
               </h1>
               <p className="text-sm md:text-xl mt-4 text-gray-600">
-                Farmer Friend offers sustainable feed solutions, helping farmers
+                FarmerFrend offers sustainable feed solutions, helping farmers
                 save costs, promote eco-friendly practices, and stay ahead with
                 innovative agriculture using Black Soldier Fly larvae.
               </p>
@@ -113,12 +113,12 @@ const About = () => {
       <div className="bg-gray-50 py-16">
         <div className="max-w-7xl mx-auto px-6 text-center">
           <h3 className="text-2xl font-bold text-gray-800">
-            Farmer Friend’s Services
+            FarmerFrend’s Services
           </h3>
           <div className="grid md:grid-cols-3 gap-8 mt-8">
             {[
               {
-                icon: '🐄',
+                icon: '🐖',
                 title: 'Sustainable Feed Production',
                 description:
                   'We produce affordable, high-quality animal feed using Black Soldier Fly larvae and organic waste.',
