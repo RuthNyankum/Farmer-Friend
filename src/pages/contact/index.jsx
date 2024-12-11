@@ -88,19 +88,19 @@ const Contact = () => {
                 <span className="text-green-600 w-10 h-10 flex items-center justify-center bg-green-100 rounded-full">
                   📞
                 </span>
-                <p className="ml-4 text-gray-800">+123 456 7890</p>
+                <p className="ml-4 text-gray-800">+233 592 803 259</p>
               </div>
               <div className="flex items-center">
                 <span className="text-green-600 w-10 h-10 flex items-center justify-center bg-green-100 rounded-full">
                   ✉️
                 </span>
-                <p className="ml-4 text-gray-800">support@farmerfrend.com</p>
+                <p className="ml-4 text-gray-800">farmerfrend@gmail.com</p>
               </div>
               <div className="flex items-center">
                 <span className="text-green-600 w-10 h-10 flex items-center justify-center bg-green-100 rounded-full">
                   📍
                 </span>
-                <p className="ml-4 text-gray-800">Not yet available</p>
+                <p className="ml-4 text-gray-800">Asesewa, Ghana</p>
               </div>
             </div>
           </div>
@@ -115,7 +115,7 @@ const Contact = () => {
             For direct communication, feel free to reach out to us via Google.
           </p>
           <a
-            href="https://hangouts.google.com/chat" // Replace with your Google Meet or Hangouts link
+            href="https://docs.google.com/forms/d/e/1FAIpQLSd1e2R0aXyZcRKoguI2MaNO1htzg8BiVacc8T6qKVQkudz11g/viewform?usp=dialog"
             target="_blank"
             rel="noopener noreferrer"
             className="w-full py-2 px-4 bg-primary text-white rounded-md shadow hover:bg-secondary focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"

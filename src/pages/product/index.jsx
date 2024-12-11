@@ -1,104 +1,16 @@
-// import React from 'react';
-// import 'swiper/swiper-bundle.css'; // Import Swiper CSS
-// import { Swiper, SwiperSlide } from 'swiper/react';
-// import { FreeMode, Pagination, Autoplay } from 'swiper/modules';
-// import 'swiper/css'; // Core Swiper CSS
-// import 'swiper/css/pagination'; // Pagination CSS
-// import 'swiper/css/autoplay'; // Autoplay CSS
-// import '../../../src/index.css';
-
-// // Import images
-// import productImage1 from '../../assets/images/pic4.jpg';
-// import productImage2 from '../../assets/images/pic1.jpg';
-// import productImage3 from '../../assets/images/pic2.jpg';
-// import productImage4 from '../../assets/images/pic3.jpg';
-
-// const Products = () => {
-//   return (
-//     <div className="bg-white">
-//       {/* Product Header */}
-//       <div className="px-6 py-16 text-center bg-green-100">
-//         <h2 className="text-3xl sm:text-4xl font-bold text-gray-800">
-//           Our Premium Organic Animal Feed
-//         </h2>
-//         <h1 className="text-4xl sm:text-5xl font-bold text-gray-800 mt-4">
-//           Made from Sustainable Sources
-//         </h1>
-//         <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
-//           Transforming organic waste into high-quality, eco-friendly feed to
-//           support sustainable farming.
-//         </p>
-//       </div>
-
-//       {/* Image Swiper */}
-//       <div className="max-w-5xl mx-auto px-6 py-16">
-//         {/* Reduced width */}
-//         <Swiper
-//           modules={[FreeMode, Pagination, Autoplay]} // Enable necessary modules
-//           slidesPerView={2} // Default: Show two slides at a time
-//           spaceBetween={20} // Space between slides
-//           loop={true} // Enable infinite loop
-//           autoplay={{
-//             delay: 3000, // 3 seconds per slide
-//             disableOnInteraction: false, // Continue auto-sliding after interaction
-//           }}
-//           pagination={{ clickable: true }} // Enable pagination dots
-//           className="w-full"
-//           breakpoints={{
-//             640: {
-//               slidesPerView: 1, // On small screens, show 1 slide at a time
-//               spaceBetween: 10, // Smaller space between slides
-//               height: '40vh', // Reduced height on mobile
-//             },
-//             768: {
-//               slidesPerView: 2, // On medium screens, show 2 slides at a time
-//               spaceBetween: 20, // Default space between slides
-//               height: '60vh', // Standard height for medium screens
-//             },
-//             1024: {
-//               slidesPerView: 3, // On larger screens, show 3 slides at a time
-//               spaceBetween: 30, // Larger space between slides
-//               height: '70vh', // Standard height for large screens
-//             },
-//           }}
-//         >
-//           {/* Swiper Slides */}
-//           {[productImage1, productImage2, productImage3, productImage4].map(
-//             (image, index) => (
-//               <SwiperSlide key={index}>
-//                 <div className="relative w-full h-full rounded-lg overflow-hidden shadow-lg border-4 border-green-500">
-//                   {/* Added border */}
-//                   <img
-//                     src={image}
-//                     alt={`Product Slide ${index + 1}`}
-//                     className="w-full h-full object-cover"
-//                   />
-//                 </div>
-//               </SwiperSlide>
-//             )
-//           )}
-//         </Swiper>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Products;
-
 import React from 'react';
-import 'swiper/swiper-bundle.css'; // Import Swiper CSS
+import 'swiper/swiper-bundle.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { FreeMode, Pagination, Autoplay } from 'swiper/modules';
-import 'swiper/css'; // Core Swiper CSS
-import 'swiper/css/pagination'; // Pagination CSS
-import 'swiper/css/autoplay'; // Autoplay CSS
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/autoplay';
 import '../../../src/index.css';
-
-// Import images
 import productImage1 from '../../assets/images/pic4.jpg';
 import productImage2 from '../../assets/images/pic1.jpg';
 import productImage3 from '../../assets/images/pic2.jpg';
 import productImage4 from '../../assets/images/pic3.jpg';
+import { FaQuoteLeft, FaQuoteRight, FaStar } from 'react-icons/fa';
 
 const Products = () => {
   return (
@@ -111,10 +23,6 @@ const Products = () => {
         <h1 className="text-4xl sm:text-5xl font-bold text-gray-800 mt-4">
           Made from Sustainable Sources
         </h1>
-        <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
-          Transforming organic waste into high-quality, eco-friendly feed to
-          support sustainable farming.
-        </p>
       </div>
 
       {/* Image Swiper */}
@@ -161,44 +69,69 @@ const Products = () => {
 
       {/* Review Section */}
       <div className="bg-white py-16">
-        <div className="max-w-4xl mx-auto px-6 text-center">
+        <div className="max-w-7xl mx-auto px-6 text-center">
           {/* Heading for Review Section */}
-          <h2 className="text-3xl sm:text-4xl font-bold text-gray-800">
-            What Our Customers Are Saying
-          </h2>
-          <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
-            Hear from our satisfied customers about how our premium organic feed
-            has transformed their farming practices.
-          </p>
-        </div>
+          <div className="sub-header mb-12">
+            <h2 className="text-3xl sm:text-4xl font-bold text-gray-800 font-baskerville">
+              What Our Customers Are Saying
+            </h2>
+            <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
+              Hear from our satisfied customers about how our premium organic
+              feed has transformed their farming practices.
+            </p>
+          </div>
 
-        {/* Testimonials */}
-        <div className="max-w-4xl mx-auto px-6 text-center mt-10">
-          {/* First Testimonial - Customer */}
-          <p className="text-xl text-gray-700 italic">
-            “This feed has worked wonders for my farm. The livestock are
-            healthier, and I’m seeing a noticeable improvement in their milk
-            production. It’s great to know I’m using something that’s both
-            sustainable and effective. Highly recommend it to any farmer.”
-          </p>
-          <p className="mt-4 font-bold text-gray-800">
-            Jack Thompson <br />
-            <span className="text-gray-500">Farmer</span>
-          </p>
-        </div>
+          {/* Testimonials Grid */}
+          <div className="grid md:grid-cols-2 gap-8">
+            {/* First Testimonial */}
+            <div className="bg-white p-6 rounded-lg shadow-lg transform transition-all duration-300 hover:scale-105 hover:shadow-xl">
+              <div className="relative">
+                <FaQuoteLeft className="text-secondary absolute -top-2 -left-2 text-3xl" />
+                <p className="text-xl text-gray-700 italic mb-4 pl-6 pr-6 relative z-10">
+                  This feed has worked wonders for my farm. The livestock are
+                  healthier, and I've noticed a significant improvement. It's
+                  reassuring to know I'm using something both sustainable and
+                  effective.
+                </p>
+                <FaQuoteRight className="text-secondary absolute -bottom-2 right-0 text-3xl" />
+              </div>
+              <div className="mt-4">
+                <p className="font-bold text-gray-800">
+                  Maame Yankeh <br />
+                  <span className="text-gray-500 text-sm">Farmer</span>
+                </p>
+                <div className="flex justify-center mt-3 text-yellow-500">
+                  {[...Array(5)].map((_, index) => (
+                    <FaStar key={index} className="mx-1" />
+                  ))}
+                </div>
+              </div>
+            </div>
 
-        <div className="max-w-4xl mx-auto px-6 text-center mt-10">
-          {/* Second Testimonial - Farmer Friendly */}
-          <p className="text-xl text-gray-700 italic">
-            “I've been using this feed for a few months now and I'm really
-            impressed. My animals are healthier, they're more active, and I'm
-            seeing better results in both the milk yield and overall quality of
-            the farm. This is the kind of feed every farmer should be using.”
-          </p>
-          <p className="mt-4 font-bold text-gray-800">
-            Michael Barnes <br />
-            <span className="text-gray-500">Farmer</span>
-          </p>
+            {/* Second Testimonial */}
+            <div className="bg-white p-6 rounded-lg shadow-lg transform transition-all duration-300 hover:scale-105 hover:shadow-xl">
+              <div className="relative">
+                <FaQuoteLeft className="text-secondary absolute -top-2 -left-2 text-3xl" />
+                <p className="text-xl text-gray-700 italic mb-4 pl-6 pr-6 relative z-10">
+                  I've been using this feed for a few months now, and I'm really
+                  impressed. My animals are healthier, more active, and I'm
+                  seeing better results in the overall quality of the farm.
+                </p>
+                <FaQuoteRight className="text-secondary absolute -bottom-2 right-0 text-3xl" />
+              </div>
+              <div className="mt-4">
+                <p className="font-bold text-gray-800">
+                  Ato <br />
+                  <span className="text-gray-500 text-sm">Farmer</span>
+                </p>
+                <div className="flex justify-center mt-3 text-yellow-500">
+                  {[...Array(5)].map((_, index) => (
+                    <FaStar key={index} className="mx-1" />
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

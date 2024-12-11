@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import bgImage from '../../assets/images/bg.jpg';
 
 const Home = () => {

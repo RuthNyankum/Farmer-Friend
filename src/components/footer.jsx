@@ -1,5 +1,5 @@
 import React from 'react';
-import { BsFacebook, BsInstagram, BsTwitter } from 'react-icons/bs';
+import { BsFacebook, BsInstagram, BsLinkedin } from 'react-icons/bs';
 
 const Footer = () => {
   return (
@@ -17,7 +17,7 @@ const Footer = () => {
         {/* Social Media Links */}
         <div className="flex justify-center space-x-8 mb-6">
           <a
-            href="https://www.facebook.com/farmerfriend"
+            href="https://web.facebook.com/profile.php?id=61569739269562"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Facebook"
@@ -26,7 +26,7 @@ const Footer = () => {
             <BsFacebook size={28} />
           </a>
           <a
-            href="https://www.instagram.com/farmerfriend"
+            href="https://www.instagram.com/farmerfrendorganicfeed/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Instagram"
@@ -35,13 +35,13 @@ const Footer = () => {
             <BsInstagram size={28} />
           </a>
           <a
-            href="https://twitter.com/farmerfriend"
+            href="https://www.linkedin.com/company/farmerfrend"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Twitter"
             className="transition-transform transform hover:scale-110"
           >
-            <BsTwitter size={28} />
+            <BsLinkedin size={28} />
           </a>
         </div>
 
